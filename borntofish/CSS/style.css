@@ -188,3 +188,13 @@ footer{
 }
 
 
+video{
+    width: 80%;
+    max-width: 600px;
+}
+
+footer p{
+    color: white; 
+    text-align: center;
+    margin: 10px 0px 0px;
+}
