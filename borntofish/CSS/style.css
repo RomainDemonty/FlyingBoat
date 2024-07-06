@@ -1,6 +1,9 @@
 body{
-    margin: 0px;
+    margin: auto;
     padding: 0px;
+    max-width: 1300px;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
 }
 
 header{
@@ -17,8 +20,8 @@ header *{
 
 #logoimage{
     width: 100%;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border:solid white 2px;
     background-color: white;
@@ -48,6 +51,8 @@ hr{
 
 p{
     margin: 20px;
+    text-align: left;
+    text-align: justify;
 }
 
 #trajets{
@@ -145,7 +150,8 @@ footer{
 
 .carousel-container {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    max-width: 700px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -156,8 +162,9 @@ footer{
 }
 
 .carousel-slide img {
-    max-width: 80%;
+    width: 80%;
     min-width: 300px;
+    max-width: 600px;
     height: auto;
 }
 
@@ -197,4 +204,8 @@ footer p{
     color: white; 
     text-align: center;
     margin: 10px 0px 0px;
+}
+
+section p{
+    text-align: start;
 }
